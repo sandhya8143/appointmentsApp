@@ -1,0 +1,77 @@
+.imageEl {
+  height: 300px;
+  width: 300px;
+}
+.cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.mainContainer {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  background-size: cover;
+  height: 100vh;
+}
+.titleStyle {
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  border-radius: 5px;
+  border-width: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.cardContainerW {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 50px;
+  width: 60%;
+}
+.h {
+  border-top: 2px solid #b5b7c4;
+  width: 100%;
+}
+.cardBack {
+  display: flex;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.btn {
+  border-radius: 10px;
+  border-width: 0px;
+  border: 1px solid #9897f0;
+  background-color: transparent;
+  color: #9897f0;
+  height: 23px;
+}
+.head {
+  font-size: 20px;
+}
+.bu {
+  border-radius: 10px;
+  border-width: 0px;
+
+  background-color: #9897f0;
+  color: #ffffff;
+  height: 23px;
+}
